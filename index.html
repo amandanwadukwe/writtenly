@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <title>Writtenly.com</title>
+        <script src="https://kit.fontawesome.com/9bb64d8c48.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/writtenly.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    </head>
+    <body>
+        <header class="header" id="header">
+            <img class="header-img" id="header-img" src="https://media.giphy.com/media/26FPwvR2qSUGjEvbG/giphy.gif" alt="writtenly's mascott" >
+            <div class="logo">Written.ly</div>
+            <div class="nav-background"></div>
+            <nav class="nav-bar" id="nav-bar">
+                <ul class="socials">
+                        <li><a href="https://www.instagram.com/xtremeli.basic/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/amanda-obiajulu-nwadukwe-480424204?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMqJ9CnT%2FTuuBl736roEgJA%3D%3D" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+                <ul class="nav-links">
+                    <li><a class="nav-link" href="#home">Home</a></li>
+                    <li><a class="nav-link" href="#services">Services</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+            </nav>
+        </header>
+        <div class="background">
+            <img src="https://images.unsplash.com/photo-1589739900266-43b2843f4c12?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fHRlY2hub2xvZ3klMjBwcm9kdWN0c3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="background-image">
+        </div>
+            <!-- Fix this
+                <div class="loader-wrapper" id="loader-wrapper">
+                <iframe src="https://giphy.com/embed/sSgvbe1m3n93G" class="giphy-embed" allowFullScreen></iframe>
+            </div> -->
+        <!--This is for the homepage-->
+        <div id="home">
+            <div class="welcome-note" id="glass">
+                <h2>Write with writtenly</h2>
+                <p>Bringing your pages to life</p>
+            </div>
+        </div>
+        <div class="help"><p>?</p></div>
+        <!--This is for the service page-->
+        <div class="services" id="services">
+            <h1>Services</h1>
+            <div class="service-box">
+                <ul>
+                    <li>
+                        <div class="service-card service-card1">
+                            <i class="fas fa-brain"></i>
+                            <h2>Thought Clarification</h2>
+                            <hr>
+                            <p>We help you clarify your thoughts and walk you through the process of confidently communicating them.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="service-card service-card2">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <h2>Better Understanding</h2>
+                            <hr>
+                            <p>We help you understand the mechanics of reading and writing.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="service-card service-card3">
+                            <i class="fas fa-comments"></i>
+                            <h2>Build Communication Skills</h2>
+                            <hr>
+                            <p>We hel you build your communication skills.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Uncomment this to work on blob background effect
+        <div id="blob-background">
+        <div id="image"></div>
+        </div> -->
+        <iframe class="video" id="video" width="560" height="315" src="https://www.youtube.com/embed/RSoRzTtwgP4?start=6" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!--This is for the contact page-->
+        <div class="contact" id="contact">
+            <h1>Contact Us</h1>
+            <div class="contact-cards">
+                <ul>
+                    <li>
+                        <div class="contact-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>
+                                25 clarence Street<br>
+                                Lancaster <br>
+                                Lancashire County Council<br>
+                                LA1 3BG<br>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contact-card">
+                            <i class="fas fa-envelope"></i>
+                            <a href="">written@writtenly.com</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contact-card">
+                            <i class="fas fa-phone-alt"></i>
+                            <p>+44 7123456789</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <form  class="form" id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <label for="name"></label>
+                <input class="name" id="name" type="text" placeholder="Your name" ><br>
+                <label for="email"></label>
+                <input class="email" id="email" type="email" name="email" placeholder="Your email" required aria-required="true"><br>
+                <input class="submit" id="submit" type="submit">
+            </form>
+            <textarea class="message" rows="4" cols="50" name="comment" placeholder="Send us a message please..." form="form"></textarea>
+        </div>
+        <!--This is for the pricing page-->
+        <div class="pricing" id="pricing">
+            <h1>Pricing</h1>
+            <div class="price-box">
+                <ul>
+                    <li>
+                        <div class="price-card">
+                            <h2>£48</h2>
+                            <h3>/year</h3>
+                            <hr>
+                            <ul>
+                                <li>
+                                    <p>We help you clarify your thoughts and walk you through the process of confidently communicating them.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="price-card" >
+                            <h2>£72</h2>
+                            <h3>/year</h3>  
+                            <hr>
+                            <ul>
+                                <li>
+                                    <p>We help you clarify your thoughts and walk you through the process of confidently communicating them.</p><br>
+                                </li>
+                                <li>
+                                    <p>We help you understand the mechanics of reading and writing.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="price-card">
+                            <h2>£88</h2>
+                            <h3>/year</h3>
+                            <hr>
+                            <ul>
+                                <li>
+                                    <p>We help you build your communicatioin skills.</p><br>
+                                </li>
+                                <li>
+                                    <p>We help you clarify your thoughts and walk you through the process of confidently communicating them.</p><br>
+                                </li>
+                                <li>
+                                    <p>We help you understand the mechanics of reading and writing.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <ul>
+                <li><p> Copyright &copy; 2021 by Amanda Nwadukwe</p></li>
+                <li><a href="">Terms $ conditions</a></li>
+                <li><a href="">Privacy Policy</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
