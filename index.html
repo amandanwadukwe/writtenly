@@ -9,7 +9,7 @@
     </head>
     <body>
         <header class="header" id="header">
-            <div class="logo">Written.ly</div>
+            <h1 class="logo">Written.ly</h1>
             <div class="nav-background"></div>
             <nav class="main-nav-bar" id="nav-bar">
                 <ul class="socials navigation-list">
@@ -17,10 +17,10 @@
                         <li><a class="icon" href="https://www.linkedin.com/in/amanda-obiajulu-nwadukwe-480424204?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMqJ9CnT%2FTuuBl736roEgJA%3D%3D" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                 </ul>
                 <ul class="primary-navigation navigation-list" id="primary-navigation">
-                    <li><a class="nav-link btn" href="#home">Home</a></li>
-                    <li><a class="nav-link btn" href="#services">Services</a></li>
-                    <li><a class="nav-link btn" href="#contact">Contact</a></li>
-                    <li><a class="nav-link btn" href="#pricing">Pricing</a></li>
+                    <li><a  href="index.html">Home</a></li>
+                    <li><a  href="#services">Services</a></li>
+                    <li><a  href="#contact">Contact</a></li>
+                    <li><a  href="about.html">About</a></li>
                 </ul>
             </nav>
                 <label  class="menu-btn" id="menu-btn"><i class="fas fa-bars icon"></i></label>
@@ -28,7 +28,9 @@
         </header>
         <div class="background">
             <img src="https://images.unsplash.com/photo-1589739900266-43b2843f4c12?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTR8fHRlY2hub2xvZ3klMjBwcm9kdWN0c3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="background-image">
+            
         </div>
+        <img src="background4.svg" class="independent-background" alt="background"/>
            
         <!--This is for the homepage-->
         <div id="home" class="home">
@@ -37,18 +39,19 @@
                 <h2>Write with writtenly</h2>
                 <p>Bringing your pages to life</p>
             </div>
-            
+            <button type="button" class="get-started-btn">Get started</button>
         </div>
-        <div class="help">?</div>
+        <button type="button" class="help btn">?</button>
+        
         <!--This is for the service page-->
         <div class="services" id="services">
-            <h1>Services</h1>
+            <h2 class="section-heading">Services</h2>
             <div class="service-box">
                 <ul>
                     <li>
                         <div class="service-card service-card1">
                             <i class="fas fa-brain"></i>
-                            <h2>Thought Clarification</h2>
+                            <h3>Thought Clarification</h3>
                             <hr>
                             <p>We help you clarify your thoughts and walk you through the process of confidently communicating them.</p>
                         </div>
@@ -56,7 +59,7 @@
                     <li>
                         <div class="service-card service-card2">
                             <i class="fas fa-chalkboard-teacher"></i>
-                            <h2>Better Understanding</h2>
+                            <h3>Better Understanding</h3>
                             <hr>
                             <p>We help you understand the mechanics of reading and writing.</p>
                         </div>
@@ -64,7 +67,7 @@
                     <li>
                         <div class="service-card service-card3">
                             <i class="fas fa-comments"></i>
-                            <h2>Build Communication Skills</h2>
+                            <h3>Build Communication Skills</h3>
                             <hr>
                             <p>We hel you build your communication skills.</p>
                         </div>
@@ -79,8 +82,8 @@
         
         <!--This is for the contact page-->
         <div class="contact" id="contact">
-            <h1>Contact Us</h1>
-            <div class="contact-box"
+            <h2  class="section-heading">Contact Us</h2>
+            <div class="contact-box">
             <div class="contact-cards">
                 <ul>
                     <li>
@@ -121,7 +124,7 @@
         </div>
         </div>
         <!--This is for the pricing page-->
-        <div class="pricing" id="pricing">
+        <!-- <div class="pricing" id="pricing">
             <h1>Pricing</h1>
             <div class="price-box">
                 <ul>
@@ -172,13 +175,30 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </div> -->
         <footer>
-            <ul>
-                <li><p> Copyright &copy; 2021 by Amanda Nwadukwe</p></li>
-                <li><a href="">Terms $ conditions</a></li>
-                <li><a href="">Privacy Policy</a></li>
+            <div>
+                <p>+44 123456789<br/>amandanwadukwe@gmail.com<br/>xtremeli.basic@gmail.com<br/><br/>Lancaster,Lancashire,<br/>United Kingdom</p>
+            </div>
+            <ul class="policies">
+                <li><a href="">About</a></li>
+                <li><a href="">Safeguarding Policy</a></li>
+                <li><a href="">Privacy policy</a></li>
+                <li><a href="">Copyright information</a></li>
             </ul>
+            <div class="more-info-container">
+                <ul>
+                    <li><a class="icon" href="https://www.instagram.com/xtremeli.basic/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a class="icon" href="https://www.linkedin.com/in/amandanwadukwe/"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a class="icon" href="https://github.com/amandanwadukwe/writtenly"><i class="fab fa-github"></i></a></li>
+                </ul>
+                <form>
+                    <label for="subscription-details">Subscribe to our newsletters</label>
+                    <input type="text" id="subscription-details"/>
+                    <button class="btn" type="submit">Submit</button>
+                </form>
+                <p> Copyright &copy; 2021 by Amanda Nwadukwe</p>
+            </div>
         </footer>
         <script src="writtenly.js"></script>
     </body>
